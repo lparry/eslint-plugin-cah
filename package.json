@@ -1,0 +1,29 @@
+{
+  "name": "eslint-plugin-cah",
+  "description": "Collection of eslint rules, used at cah",
+  "version": "0.1.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "lint": "./node_modules/.bin/eslint --ext .js .",
+    "test": "mocha tests"
+  },
+  "keywords": [
+    "eslint"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/colonyamerican/eslint-plugin-cah.git"
+  },
+  "author": "Jason Brumwell",
+  "license": "MIT",
+  "devDependencies": {
+    "eslint": "^0.18.0",
+    "eslint-tester": "^0.6.0",
+    "mocha": "^2.2.1"
+  },
+  "dependencies": {}
+}
