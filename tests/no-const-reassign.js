@@ -1,11 +1,11 @@
 'use strict';
 
 var eslint = require('eslint');
-var ESLintTester = require('eslint-tester');
+var RuleTester = eslint.RuleTester;
 
-var eslintTester = new ESLintTester(eslint.linter);
+var ruleTester = new RuleTester(eslint);
 
-eslintTester.addRuleTest('rules/no-const-reassign', {
+ruleTester.run('rules/no-const-reassign', require('../rules/no-const-reassign'), {
   valid: [
     {
       code: 'var a = "a"; a = "b";'
