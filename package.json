@@ -1,8 +1,7 @@
 {
   "name": "eslint-plugin-cah",
-  "description": "Collection of eslint rules, used at cah",
-  "version": "0.1.1",
   "description": "",
+  "version": "0.2.0",
   "main": "index.js",
   "directories": {
     "test": "tests"
